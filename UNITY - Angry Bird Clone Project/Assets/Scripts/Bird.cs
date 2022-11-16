@@ -23,6 +23,7 @@ public class Bird : MonoBehaviour
     {
         isClick = false;
         sp.enabled = false;
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
     }
 
     private void Update()
