@@ -8,22 +8,25 @@ public class Bird : MonoBehaviour
     public Transform rightPos;
     public float maxDis = 1.2f;
     private SpringJoint2D sp;
+    private Rigidbody2D rb;
 
     private void Awake()
     {
         sp = GetComponent<SpringJoint2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnMouseDown()
     {
         isClick = true;
+        rb.isKinematic = true;
     }
 
     private void OnMouseUp()
     {
         isClick = false;
-        sp.enabled = false;
-        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+        rb.isKinematic = false;
+        Invoke("Fly", 0.1f);
     }
 
     private void Update()
@@ -42,5 +45,10 @@ public class Bird : MonoBehaviour
             }
         } 
 
+    }
+
+    void Fly()
+    {
+        sp.enabled = false;
     }
 }
