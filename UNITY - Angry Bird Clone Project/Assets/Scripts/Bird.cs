@@ -16,6 +16,14 @@ public class Bird : MonoBehaviour
     public LineRenderer line_right;
     public LineRenderer line_Left;
 
+    public string animationName;
+    Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     private void Awake()
     {
         sp = GetComponent<SpringJoint2D>();
@@ -54,8 +62,16 @@ public class Bird : MonoBehaviour
                 pos *= maxDis;//maximum length vector;
                 transform.position = pos + rightPos.position;
             }
+<<<<<<< Updated upstream
             lineRender();
         } 
+=======
+        }
+        if(Damage.Hit != true)
+        {
+            anim.Play(animationName);
+        }
+>>>>>>> Stashed changes
 
     }
 
