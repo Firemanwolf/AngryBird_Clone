@@ -8,6 +8,7 @@ public class Damage : MonoBehaviour {
 	public float damageImpactSpeed; //speed/force threshold for determining whether a hit is registered or not. birds will need this in their code.
 	public GameObject gameObj;
 	public Sprite damagedSprite;
+	public static bool Hit;
 
 	private int currentHP;
 	private float damageImpactSpeed2;
@@ -36,6 +37,8 @@ public class Damage : MonoBehaviour {
 		if (currentHP <= 0)
 		{
 			Death();
+			Hit = true;
+			Debug.Log("Hit is set to true");
 		}
 	}
 	void Death()

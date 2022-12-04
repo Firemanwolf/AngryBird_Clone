@@ -20,8 +20,18 @@ public class Bird : MonoBehaviour
     public LineRenderer line_right;
     public LineRenderer line_Left;
 
+<<<<<<< HEAD:Unity-Angry bird clone/Assets/Scripts/Bird.cs
     private Coroutine coroutine;
 
+=======
+    public string animationName;
+    Animator anim;
+
+    void Start()
+    {
+        anim = GetComponent<Animator>();
+    }
+>>>>>>> 9b5f6ddac25b9951ffe920691fb3bc667cb1b265:UNITY - Angry Bird Clone Project/Assets/Scripts/Bird.cs
 
     private void Awake()
     {
@@ -74,8 +84,20 @@ public class Bird : MonoBehaviour
                 pos *= maxDis;//maximum length vector;
                 transform.position = pos + rightPos.position;
             }
+<<<<<<< Updated upstream
             lineRender();
+<<<<<<< HEAD:Unity-Angry bird clone/Assets/Scripts/Bird.cs
         }
+=======
+        } 
+=======
+        }
+        if(Damage.Hit != true)
+        {
+            anim.Play(animationName);
+        }
+>>>>>>> Stashed changes
+>>>>>>> 9b5f6ddac25b9951ffe920691fb3bc667cb1b265:UNITY - Angry Bird Clone Project/Assets/Scripts/Bird.cs
 
     }
 
