@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 693aeab293f5b8a4fbb451b686e58927
+guid: 25d855270dc86487c84ab463cc17aa17
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -104,76 +104,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BUTTONS_0
+      name: cutscenes_0
       rect:
         serializedVersion: 2
-        x: 284
-        y: 217
-        width: 100
-        height: 93
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0ea53d12f4fa46aaaad413a64b00621
-      internalID: 1094242961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BUTTONS_1
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 762
-        width: 107
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24f50f539940a4088bd356366096dc42
-      internalID: 1443155242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BUTTONS_2
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 762
-        width: 105
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7414a38ad33634ea4b80b5bd56bae638
-      internalID: 488276863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BUTTONS_3
-      rect:
-        serializedVersion: 2
-        x: 390
-        y: 762
-        width: 106
-        height: 100
+        x: 8
+        y: 2812
+        width: 2120
+        height: 647
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3822eca079ad942f1b188aaaa38d9ffd
-      internalID: -248183049
+      spriteID: b88a51573ab4e47a19f211f3f7c5c30a
+      internalID: -1663919306
       vertices: []
       indices: 
       edges: []
@@ -198,10 +135,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BUTTONS_2: 488276863
-      BUTTONS_0: 1094242961
-      BUTTONS_3: -248183049
-      BUTTONS_1: 1443155242
+      cutscenes_0: -1663919306
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
