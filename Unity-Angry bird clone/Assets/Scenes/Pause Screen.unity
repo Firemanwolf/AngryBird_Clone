@@ -746,6 +746,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37818046b930f43129ce2e9546f93200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birds: []
+  pigs: []
+  spots: []
 --- !u!4 &1331458656
 Transform:
   m_ObjectHideFlags: 0
@@ -882,7 +885,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TEST SCENE
+          m_StringArgument: 02-Game
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1413897212

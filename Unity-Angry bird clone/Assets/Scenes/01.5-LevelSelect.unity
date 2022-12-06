@@ -722,7 +722,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: TEST SCENE
+          m_StringArgument: 02-Game
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &732607085
@@ -1381,6 +1381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37818046b930f43129ce2e9546f93200, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  birds: []
+  pigs: []
+  spots: []
 --- !u!4 &1521702005
 Transform:
   m_ObjectHideFlags: 0
@@ -1919,7 +1922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -334.00003, y: -179}
+  m_AnchoredPosition: {x: -334, y: -179}
   m_SizeDelta: {x: -620, y: -360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2106564518

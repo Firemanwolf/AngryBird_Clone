@@ -8,6 +8,7 @@ TagManager:
   - pig
   - glass
   - wood
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -47,4 +48,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 3452724023
+    locked: 0
+  - name: UI
+    uniqueID: 1377839433
     locked: 0
