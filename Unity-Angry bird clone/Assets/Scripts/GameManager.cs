@@ -20,7 +20,6 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         gamePaused = false;
-        DontDestroyOnLoad(gameObject);
         Initialized();
     }
 
