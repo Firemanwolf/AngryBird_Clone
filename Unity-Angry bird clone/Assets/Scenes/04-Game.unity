@@ -1167,6 +1167,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &259638631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1624,7 +1625,6 @@ GameObject:
   - component: {fileID: 384504124}
   - component: {fileID: 384504123}
   - component: {fileID: 384504125}
-  - component: {fileID: 384504126}
   m_Layer: 0
   m_Name: Bird
   m_TagString: red bird
@@ -1796,19 +1796,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pig: {fileID: 0}
---- !u!114 &384504126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384504118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5bc0b2c418d74102b3efaa089efd176, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1309915992}
 --- !u!1 &416914495
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,6 +2075,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &421310233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2860,6 +2848,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &514051560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3528,6 +3517,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &660935303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,6 +3699,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &667633241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4001,6 +3992,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &697873149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5350,6 +5342,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
+  ScoreText: {fileID: 1309915992}
 --- !u!58 &1142383828
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -5746,6 +5739,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1203071163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5813,6 +5807,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
+  ScoreText: {fileID: 1309915992}
 --- !u!58 &1206235402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -6547,6 +6542,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1340084282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7786,7 +7782,6 @@ GameObject:
   - component: {fileID: 1544667636}
   - component: {fileID: 1544667635}
   - component: {fileID: 1544667634}
-  - component: {fileID: 1544667641}
   m_Layer: 0
   m_Name: Bird (1)
   m_TagString: red bird
@@ -7958,19 +7953,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1544667641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544667633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5bc0b2c418d74102b3efaa089efd176, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScoreText: {fileID: 1309915992}
 --- !u!1 &1553690994
 GameObject:
   m_ObjectHideFlags: 0
@@ -8365,6 +8347,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1745537452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8546,6 +8529,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1920854844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8997,6 +8981,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1966320610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9209,6 +9194,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &1971299417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9500,6 +9486,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
+  ScoreText: {fileID: 1309915992}
 --- !u!114 &2036123394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9792,6 +9779,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!114 &2085185705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9986,6 +9974,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 0
+  ScoreText: {fileID: 0}
 --- !u!1 &2143000910
 GameObject:
   m_ObjectHideFlags: 0

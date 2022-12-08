@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Piggie : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class Piggie : MonoBehaviour
 
     public bool isPiggy;
 
+    public Text ScoreText;
+    private int ScoreNum;
+
     private void Awake()
     {
         render = GetComponent<SpriteRenderer>();
@@ -23,7 +27,8 @@ public class Piggie : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        ScoreNum = 0;
+        ScoreText.text = "Score: " + ScoreNum;
     }
 
     // Update is called once per frame
@@ -52,5 +57,7 @@ public class Piggie : MonoBehaviour
         Instantiate(Boom, transform.position, Quaternion.identity);
         GameObject _score = Instantiate(score, transform.position + new Vector3(0,0.5f,0), Quaternion.identity);
         Destroy(_score, 1.5f);
+        ScoreNum += 5000;
+        ScoreText.text = "Score: " + ScoreNum;
     }
 }
