@@ -14,12 +14,10 @@ public class ScoreManager : MonoBehaviour
         ScoreText.text = "Score: " + ScoreNum;
     }
 
-    private void OnTriggerEnter2D(Collider2D Piggie)
+    public void Die()
     {
-        if (Piggie.tag == "pig")
         {
             ScoreNum += 5000;
-            Destroy(Piggie.gameObject);
             ScoreText.text = "Score: " + ScoreNum;
         }
     }

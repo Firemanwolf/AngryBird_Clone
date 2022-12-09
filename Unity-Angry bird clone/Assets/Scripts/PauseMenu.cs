@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -15,10 +16,8 @@ public class PauseMenu : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void PauseGame()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
             if (GameIsPaused)
             {
                 Resume();
@@ -28,12 +27,11 @@ public class PauseMenu : MonoBehaviour
                 Pause();
             }
         }
-    }
 
        public void Resume()
         {
             pauseMenuUI.SetActive(false);
-            Time.timeScale = 0f;
+            Time.timeScale = 1f;
             GameIsPaused = false;
         }
 
@@ -42,5 +40,12 @@ public class PauseMenu : MonoBehaviour
             pauseMenuUI.SetActive(true);
             Time.timeScale = 0f;
             GameIsPaused = true;
+        }
+
+        public void Restart()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 1f;
+            GameIsPaused = false;
         }
     }

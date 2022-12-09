@@ -17,7 +17,7 @@ public class Piggie : MonoBehaviour
     public bool isPiggy;
 
     public Text ScoreText;
-    private int ScoreNum;
+    private static int ScoreNum;
 
     private void Awake()
     {
@@ -27,8 +27,7 @@ public class Piggie : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ScoreNum = 0;
-        ScoreText.text = "Score: " + ScoreNum;
+
     }
 
     // Update is called once per frame
@@ -52,12 +51,15 @@ public class Piggie : MonoBehaviour
 
     public void Die()
     {
-        if (isPiggy) GameManager._instance.pigs.Remove(this);
+        if (isPiggy){
+        ScoreNum += 5000;
+        ScoreText.text = "Score: " + ScoreNum;
+        Debug.Log("Score Registered!");
+        GameManager._instance.pigs.Remove(this);
+        } 
         Destroy(gameObject);
         Instantiate(Boom, transform.position, Quaternion.identity);
         GameObject _score = Instantiate(score, transform.position + new Vector3(0,0.5f,0), Quaternion.identity);
         Destroy(_score, 1.5f);
-        ScoreNum += 5000;
-        ScoreText.text = "Score: " + ScoreNum;
     }
 }
