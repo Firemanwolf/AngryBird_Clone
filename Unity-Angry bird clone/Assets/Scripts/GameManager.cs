@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class GameManager : MonoBehaviour
     public static bool gamePaused;
     private Vector3 InitPos;
     public List<GameObject> spots;
+
+    public GameObject WinScreenUI;
+    public GameObject LoseScreenUI;
+    public GameObject FinalScoreUI;
+
 
     private void Awake()
     {
@@ -21,6 +27,8 @@ public class GameManager : MonoBehaviour
     {
         gamePaused = false;
         Initialized();
+
+        FinalScoreUI.GetComponent<Canvas>().enabled = false;
     }
 
     private void Initialized()
@@ -50,9 +58,18 @@ public class GameManager : MonoBehaviour
             {
                 Initialized();
             }
-        } else
+        }
+        else
         {
-            //win
+            Debug.Log("Win!");
+            WinScreenUI.SetActive(true);
+            FinalScoreUI.GetComponent<Canvas>().enabled = true;
+        }
+
+        if(pigs.Count > 0 && birds.Count == 0)
+        {
+            Debug.Log("Lose!");
+            LoseScreenUI.SetActive(true);
         }
     }
 }

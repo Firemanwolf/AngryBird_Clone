@@ -112,7 +112,7 @@ TextureImporter:
         width: 210
         height: 207
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -120,6 +120,27 @@ TextureImporter:
       bones: []
       spriteID: ee3fb70348ef54620a1a2044e2a18993
       internalID: -973972372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad887788628e89b4bb74621621346f83
+      internalID: 180685313
       vertices: []
       indices: 
       edges: []
@@ -135,6 +156,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      LOSE_1: 180685313
       LOSE_0: -973972372
   spritePackingTag: 
   pSDRemoveMatte: 0

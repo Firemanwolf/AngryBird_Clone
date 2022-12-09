@@ -2,12 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+
+    public Text ScoreText;
+    public static int ScoreNum;
+
+    public Text FScoreText;
+    public static int FScoreNum;
 
     // Start is called before the first frame update
     void Start()
@@ -47,5 +54,9 @@ public class PauseMenu : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Time.timeScale = 1f;
             GameIsPaused = false;
+            ScoreNum = 0;
+            ScoreText.text = "Score: " + ScoreNum;
+            FScoreNum = 0;
+            FScoreText.text = "Score: " + FScoreNum;
         }
     }

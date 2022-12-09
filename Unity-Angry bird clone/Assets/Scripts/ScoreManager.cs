@@ -6,19 +6,11 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public Text ScoreText;
-    private int ScoreNum;
+    private static int ScoreNum;
 
     void Start()
     {
         ScoreNum = 0;
         ScoreText.text = "Score: " + ScoreNum;
-    }
-
-    public void Die()
-    {
-        {
-            ScoreNum += 5000;
-            ScoreText.text = "Score: " + ScoreNum;
-        }
     }
 }
