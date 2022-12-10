@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259638623}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -1426,8 +1426,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &259638631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,7 +2048,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384504118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5e3a88f37149074d9ae35adf34f4764, type: 3}
   m_Name: 
@@ -2323,7 +2321,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421310225}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -2335,8 +2333,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &421310233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3109,7 +3105,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514051552}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -3121,8 +3117,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &514051560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3856,6 +3850,8 @@ MonoBehaviour:
   WinScreenUI: {fileID: 968075489}
   LoseScreenUI: {fileID: 2143000910}
   FinalScoreUI: {fileID: 2116347891}
+  ScoreText: {fileID: 1309915992}
+  FScoreText: {fileID: 1470784645}
 --- !u!4 &595049217
 Transform:
   m_ObjectHideFlags: 0
@@ -4104,7 +4100,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660935295}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4116,8 +4112,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &660935303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4287,7 +4281,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667633234}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4299,8 +4293,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &667633241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4581,7 +4573,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697873141}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4593,8 +4585,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &697873149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6823,7 +6813,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203071155}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -6835,8 +6825,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1203071163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6878,7 +6866,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1206235399}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5e3a88f37149074d9ae35adf34f4764, type: 3}
   m_Name: 
@@ -6904,8 +6892,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
-  ScoreText: {fileID: 1309915992}
-  FScoreText: {fileID: 1470784645}
 --- !u!58 &1206235402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7608,7 +7594,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340084274}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -7620,8 +7606,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1340084282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9104,7 +9088,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544667633}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5e3a88f37149074d9ae35adf34f4764, type: 3}
   m_Name: 
@@ -9760,7 +9744,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745537444}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -9772,8 +9756,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1745537452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10125,7 +10107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920854836}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10137,8 +10119,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1920854844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10731,7 +10711,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966320602}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10743,8 +10723,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1966320610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10945,7 +10923,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971299409}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10957,8 +10935,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &1971299417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11250,8 +11226,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
-  ScoreText: {fileID: 1309915992}
-  FScoreText: {fileID: 1470784645}
 --- !u!114 &2036123394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11259,7 +11233,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036123388}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5e3a88f37149074d9ae35adf34f4764, type: 3}
   m_Name: 
@@ -11532,7 +11506,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085185697}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -11544,8 +11518,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!114 &2085185705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11728,7 +11700,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090992145}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -11740,8 +11712,6 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
   isPiggy: 0
-  ScoreText: {fileID: 0}
-  FScoreText: {fileID: 0}
 --- !u!1 &2116347891
 GameObject:
   m_ObjectHideFlags: 0
