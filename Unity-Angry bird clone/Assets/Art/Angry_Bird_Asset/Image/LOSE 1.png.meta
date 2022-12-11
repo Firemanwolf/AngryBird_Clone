@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a92624b56d7c6244a93466cf7b4e1c4
+guid: 01f49b3e9d8361c4eb15b9c1a3fec59d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: STAR_0
+      name: LOSE_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 531
-        width: 161
-        height: 378
+        x: 1
+        y: 118
+        width: 209
+        height: 206
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e5f655ff765404cb4deaeaad8456be
-      internalID: -1616227293
+      spriteID: ee3fb70348ef54620a1a2044e2a18993
+      internalID: -973972372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_1
+      name: LOSE_1
       rect:
         serializedVersion: 2
-        x: 162
-        y: 604
-        width: 315
-        height: 304
+        x: 212
+        y: 188
+        width: 155
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d30b62f26c1f124db44285431048146
-      internalID: -440141032
+      spriteID: ad887788628e89b4bb74621621346f83
+      internalID: 180685313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_2
+      name: LOSE_2
       rect:
         serializedVersion: 2
-        x: 479
-        y: 681
-        width: 260
-        height: 227
+        x: 369
+        y: 197
+        width: 119
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06f7ffeded0cb6442b4437d67e27bbf3
-      internalID: 1887169123
+      spriteID: e1a61f282e71a124aa670a9459e2d478
+      internalID: -327514061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_3
+      name: LOSE_3
       rect:
         serializedVersion: 2
-        x: 162
-        y: 589
-        width: 14
-        height: 13
+        x: 2
+        y: 31
+        width: 156
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a0853ac50d2f394d95bc3b546ea2d37
-      internalID: -1347852494
+      spriteID: e94a71921f6797547b039c5de40482cb
+      internalID: 848526786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_4
+      name: LOSE_4
       rect:
         serializedVersion: 2
-        x: 479
-        y: 573
-        width: 104
-        height: 106
+        x: 160
+        y: 76
+        width: 41
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9d2492caa175264e86221fc9a193ca0
-      internalID: 1619946787
+      spriteID: 6bd0fc43c2d36864791fb7cddeadbe13
+      internalID: -984372428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_5
+      name: LOSE_5
       rect:
         serializedVersion: 2
-        x: 586
-        y: 581
-        width: 50
-        height: 64
+        x: 212
+        y: 60
+        width: 119
+        height: 126
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,18 +235,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84785bd88571b3b448dc9eb803d42f98
-      internalID: 1506949652
+      spriteID: 832aaee1871c5c040bc3b18e8f5f33a7
+      internalID: -1250164312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_6
+      name: LOSE_6
       rect:
         serializedVersion: 2
-        x: 162
-        y: 578
+        x: 334
+        y: 71
+        width: 108
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3bcfe89a5fc5c4db45705d5377be6a
+      internalID: -1538227300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_7
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 64
         width: 9
         height: 9
       alignment: 0
@@ -256,20 +277,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d96ed27ff7e530468428dac28e4e3ef
-      internalID: -1583984535
+      spriteID: 8734ec7a7b5155747b9dc048f204ae91
+      internalID: 577858283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_7
+      name: LOSE_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 6
+        width: 129
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d7e5bc377885a4592f2937d84c4c98
+      internalID: 1106020061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_9
       rect:
         serializedVersion: 2
         x: 1
-        y: 229
-        width: 315
-        height: 301
+        y: 7
+        width: 22
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +319,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae65de5566c1ec14894e440ade41d8f0
-      internalID: 1842560209
+      spriteID: b401dc59a9499d3459fdbcc74c82c448
+      internalID: -539895760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_8
+      name: LOSE_10
       rect:
         serializedVersion: 2
-        x: 317
-        y: 329
-        width: 201
-        height: 202
+        x: 25
+        y: 7
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52bc4df3d9420404789598f5dc2f28af
-      internalID: 523182466
+      spriteID: 9a209331f63472e40ae1fb96b846bac1
+      internalID: -255586079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_9
+      name: LOSE_11
       rect:
         serializedVersion: 2
-        x: 520
-        y: 336
-        width: 196
-        height: 194
+        x: 48
+        y: 7
+        width: 21
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,20 +361,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8eac0291830354985aab2998df5efc
-      internalID: 1505522937
+      spriteID: cc094230a1751a44c83ec52fbd828ac9
+      internalID: 1994712001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_10
+      name: LOSE_12
       rect:
         serializedVersion: 2
-        x: 1
+        x: 71
+        y: 7
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16560b2dac267754abbf328f9c6aa359
+      internalID: 536201732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 9
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2bfb9e12e622143b5fca62f7b11c17
+      internalID: 34640020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 15
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751af66fa1d0e4a45955428293156c3c
+      internalID: -1349655247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_15
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 16
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519c386d1abfe19458062561b31cd297
+      internalID: -296617270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7995fdab90548d488af6e6541223f22
+      internalID: -1891087938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_17
+      rect:
+        serializedVersion: 2
+        x: 114
         y: 1
-        width: 230
-        height: 226
+        width: 14
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c5a0d989269d7444893fc85b4680dd5
-      internalID: 1871160603
+      spriteID: 74420539b0374fb4b94a82147638027b
+      internalID: 1348629032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: STAR_11
+      name: LOSE_18
       rect:
         serializedVersion: 2
-        x: 318
-        y: 189
-        width: 363
-        height: 139
+        x: 130
+        y: 2
+        width: 12
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,8 +508,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 923f83f57d8262740b86f496fdd1b9f8
-      internalID: 925754173
+      spriteID: 380541f69d4296942983d61ba8ef0576
+      internalID: 1696356718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOSE_19
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 3
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b1e2970b15d9b4b8c97947d01e11ab
+      internalID: 979163111
       vertices: []
       indices: 
       edges: []
@@ -378,18 +546,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      STAR_1: -440141032
-      STAR_11: 925754173
-      STAR_3: -1347852494
-      STAR_10: 1871160603
-      STAR_7: 1842560209
-      STAR_8: 523182466
-      STAR_6: -1583984535
-      STAR_2: 1887169123
-      STAR_5: 1506949652
-      STAR_0: -1616227293
-      STAR_9: 1505522937
-      STAR_4: 1619946787
+      LOSE_6: -1538227300
+      LOSE_15: -296617270
+      LOSE_9: -539895760
+      LOSE_18: 1696356718
+      LOSE_5: -1250164312
+      LOSE_17: 1348629032
+      LOSE_11: 1994712001
+      LOSE_7: 577858283
+      LOSE_13: 34640020
+      LOSE_1: 180685313
+      LOSE_14: -1349655247
+      LOSE_4: -984372428
+      LOSE_0: -973972372
+      LOSE_12: 536201732
+      LOSE_16: -1891087938
+      LOSE_10: -255586079
+      LOSE_3: 848526786
+      LOSE_8: 1106020061
+      LOSE_2: -327514061
+      LOSE_19: 979163111
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

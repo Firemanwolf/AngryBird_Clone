@@ -16,11 +16,11 @@ public class Piggie : MonoBehaviour
 
     public bool isPiggy;
 
-    public Text ScoreText;
     public static int ScoreNum;
 
-    public Text FScoreText;
     public static int FScoreNum;
+
+    public int DestroyPoints;
 
     private void Awake()
     {
@@ -31,10 +31,10 @@ public class Piggie : MonoBehaviour
     void Start()
     {
         ScoreNum = 0;
-        ScoreText.text = "Score: " + ScoreNum;
+        GameManager._instance.ScoreText.text = "Score: " + ScoreNum;
 
         FScoreNum = 0;
-        FScoreText.text = "Score: " + FScoreNum;
+        GameManager._instance.FScoreText.text = "Score: " + FScoreNum;
     }
 
     // Update is called once per frame
@@ -59,13 +59,12 @@ public class Piggie : MonoBehaviour
     public void Die()
     {
         if (isPiggy){
-        ScoreNum += 5000;
-        ScoreText.text = "Score: " + ScoreNum;
-        FScoreNum += 5000;
-        FScoreText.text = "Score: " + FScoreNum;
-        Debug.Log("Score Registered!");
         GameManager._instance.pigs.Remove(this);
         } 
+        ScoreNum += DestroyPoints;
+        GameManager._instance.ScoreText.text = "Score: " + ScoreNum;
+        FScoreNum += DestroyPoints;
+        GameManager._instance.FScoreText.text = "Score: " + FScoreNum;
         Destroy(gameObject);
         Instantiate(Boom, transform.position, Quaternion.identity);
         GameObject _score = Instantiate(score, transform.position + new Vector3(0,0.5f,0), Quaternion.identity);

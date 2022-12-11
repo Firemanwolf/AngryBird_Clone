@@ -200,6 +200,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 177648653}
   m_CullTransparentMesh: 1
+--- !u!1 &219761657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 219761659}
+  - component: {fileID: 219761658}
+  m_Layer: 0
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &219761658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219761657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b3bd8c1481547d1ab3ba832b7eb336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &219761659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219761657}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.9118576, y: -1.4909908, z: -0.07789218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &576176469
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.1632996, y: 19}
+  m_AnchoredPosition: {x: -1.1633301, y: 19}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &696951330
@@ -712,7 +756,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1521702003}
+      - m_Target: {fileID: 219761658}
         m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -798,7 +842,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.98898315, y: -7}
+  m_AnchoredPosition: {x: 0.9890137, y: -7}
   m_SizeDelta: {x: -620, y: -360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &772925126
@@ -1220,7 +1264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1521702003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,6 +1292,11 @@ MonoBehaviour:
   birds: []
   pigs: []
   spots: []
+  WinScreenUI: {fileID: 0}
+  LoseScreenUI: {fileID: 0}
+  FinalScoreUI: {fileID: 0}
+  ScoreText: {fileID: 0}
+  FScoreText: {fileID: 0}
 --- !u!4 &1521702005
 Transform:
   m_ObjectHideFlags: 0
@@ -1395,7 +1444,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1521702003}
+      - m_Target: {fileID: 219761658}
         m_TargetAssemblyTypeName: SceneManagerScript, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
@@ -1875,7 +1924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using System.IO;
 //using LitJson;
 using System.Collections.Generic;
@@ -123,7 +125,9 @@ public class ExcelDeserializer {
 		{
 			//			Debug.LogError ("no change " + table.TableName + ".cs");
 		}
-        AssetDatabase.Refresh();
+	#if UNITY_EDITOR
+		AssetDatabase.Refresh();
+	#endif
 		return true;
 	}
 }
