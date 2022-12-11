@@ -168,6 +168,9 @@ MonoBehaviour:
   birds: []
   pigs: []
   spots: []
+  WinScreenUI: {fileID: 0}
+  LoseScreenUI: {fileID: 0}
+  FinalScoreUI: {fileID: 0}
 --- !u!4 &8160065
 Transform:
   m_ObjectHideFlags: 0
@@ -1261,7 +1264,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -234, y: -134.00002}
+  m_AnchoredPosition: {x: -233.99997, y: -134.00003}
   m_SizeDelta: {x: -620, y: -360}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022502942
