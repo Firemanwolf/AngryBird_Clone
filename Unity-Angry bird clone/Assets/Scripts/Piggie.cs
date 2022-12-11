@@ -20,6 +20,8 @@ public class Piggie : MonoBehaviour
 
     public static int FScoreNum;
 
+    public int DestroyPoints;
+
     private void Awake()
     {
         render = GetComponent<SpriteRenderer>();
@@ -57,13 +59,12 @@ public class Piggie : MonoBehaviour
     public void Die()
     {
         if (isPiggy){
-        ScoreNum += 5000;
-        GameManager._instance.ScoreText.text = "Score: " + ScoreNum;
-        FScoreNum += 5000;
-        GameManager._instance.FScoreText.text = "Score: " + FScoreNum;
-        Debug.Log("Score Registered!");
         GameManager._instance.pigs.Remove(this);
         } 
+        ScoreNum += DestroyPoints;
+        GameManager._instance.ScoreText.text = "Score: " + ScoreNum;
+        FScoreNum += DestroyPoints;
+        GameManager._instance.FScoreText.text = "Score: " + FScoreNum;
         Destroy(gameObject);
         Instantiate(Boom, transform.position, Quaternion.identity);
         GameObject _score = Instantiate(score, transform.position + new Vector3(0,0.5f,0), Quaternion.identity);
