@@ -594,8 +594,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86311718}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.783, y: -8.59, z: 10.088277}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -12.81, y: -8.59, z: 10.088277}
+  m_LocalScale: {x: 1.025, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 787464475}
@@ -1320,7 +1320,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259638623}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -1424,8 +1424,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &259638631
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1536,8 +1537,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2114381069
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -586783575, guid: 886627892effb1142a89fd075869faf8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2227,7 +2228,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2321,7 +2322,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421310225}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -2331,8 +2332,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &421310233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3011,7 +3013,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -3105,7 +3107,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514051552}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -3115,8 +3117,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &514051560
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4006,7 +4009,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4100,7 +4103,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660935295}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4110,8 +4113,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &660935303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4187,7 +4191,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4281,7 +4285,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667633234}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4291,8 +4295,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &667633241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4479,7 +4484,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4573,7 +4578,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697873141}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -4583,8 +4588,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &697873149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6719,7 +6725,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -6813,7 +6819,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203071155}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -6823,8 +6829,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1203071163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6892,6 +6899,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
+  DestroyPoints: 5000
 --- !u!58 &1206235402
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7500,7 +7508,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -7594,7 +7602,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340084274}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -7604,8 +7612,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1340084282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9412,7 +9421,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1613960211}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.22, y: -3.2303, z: 10.088277}
+  m_LocalPosition: {x: 12.63, y: -3.2303, z: 10.088277}
   m_LocalScale: {x: 3.6639173, y: 2.8359587, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9650,7 +9659,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -9744,7 +9753,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745537444}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -9754,8 +9763,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1745537452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10013,7 +10023,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -10107,7 +10117,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920854836}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10117,8 +10127,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1920854844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10617,7 +10628,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -10711,7 +10722,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1966320602}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10721,8 +10732,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1966320610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10829,7 +10841,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -10923,7 +10935,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971299409}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -10933,8 +10945,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &1971299417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11226,6 +11239,7 @@ MonoBehaviour:
   HP: 2
   score: {fileID: 4164986653401576123, guid: 4bc2000c2d3b8634bb5ba7f871e6c8e7, type: 3}
   isPiggy: 1
+  DestroyPoints: 5000
 --- !u!114 &2036123394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11412,7 +11426,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -11506,7 +11520,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085185697}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -11516,8 +11530,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!114 &2085185705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11593,7 +11608,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.2
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -11700,7 +11715,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2090992145}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: df6f1bdb1946a404aada86db3b601623, type: 3}
   m_Name: 
@@ -11710,8 +11725,9 @@ MonoBehaviour:
   Hurt: []
   Boom: {fileID: 7957387291648288803, guid: f1f3d536daba67c4ca6668ad553cefa3, type: 3}
   HP: 2
-  score: {fileID: 654256003719445924, guid: bf7fdf9f9d7104341a22135c205fccb7, type: 3}
+  score: {fileID: 572436183090624367, guid: ae0a49be047d68a4b895f8c35d754ebe, type: 3}
   isPiggy: 0
+  DestroyPoints: 100
 --- !u!1 &2116347891
 GameObject:
   m_ObjectHideFlags: 0
