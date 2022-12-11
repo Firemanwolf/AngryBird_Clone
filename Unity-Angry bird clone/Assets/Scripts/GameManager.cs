@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     public static bool gamePaused;
     private Vector3 InitPos;
     public List<GameObject> spots;
+    public GameObject[] stars;
 
     public GameObject WinScreenUI;
     public GameObject LoseScreenUI;
@@ -69,6 +70,17 @@ public class GameManager : MonoBehaviour
             Debug.Log("Win!");
             WinScreenUI.SetActive(true);
             FinalScoreUI.GetComponent<Canvas>().enabled = true;
+            StartCoroutine("showStars");
+        }
+    }
+
+    IEnumerator showStars()
+    {
+        int starNum = Mathf.Clamp(Piggie.FScoreNum / 5000, 1, 3);
+        for (int i = 0; i < starNum; i++)
+        {
+            yield return new WaitForSeconds(0.2f);
+            stars[i].SetActive(true);
         }
     }
 }
