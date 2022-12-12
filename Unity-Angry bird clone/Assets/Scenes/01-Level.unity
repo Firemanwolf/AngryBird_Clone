@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &8160063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,9 +168,12 @@ MonoBehaviour:
   birds: []
   pigs: []
   spots: []
+  stars: []
   WinScreenUI: {fileID: 0}
   LoseScreenUI: {fileID: 0}
   FinalScoreUI: {fileID: 0}
+  ScoreText: {fileID: 0}
+  FScoreText: {fileID: 0}
 --- !u!4 &8160065
 Transform:
   m_ObjectHideFlags: 0
